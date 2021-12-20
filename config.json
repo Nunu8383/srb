@@ -1,0 +1,25 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 4
+        }
+    },
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "argon2/chukwav2",
+            "host": "sg.turtlecoin.herominers.com:1160",
+            "niceHash": true,
+            "password": "x",
+            "port": 3333,
+            "priority": 0,
+            "rigID": "kune",
+            "ssl": false,
+            "username": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy.git"
+            
+        }
+        
+    ]
+}
